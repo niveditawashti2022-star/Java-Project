@@ -1,30 +1,6 @@
 # To-Do Manager with Deadlines (Java Console Application)
 
-A console-based task management application written in Java.  
-Users can add tasks with deadlines, view all tasks, view pending tasks, mark tasks as done, and delete tasks.  
-Tasks are saved to a file for persistence between runs.
-
-------------------------------------------------------------
-
-## Features
-
-- Add a task with:
-  - Title
-  - Description
-  - Deadline (YYYY-MM-DD format)
-- View all tasks sorted by deadline
-- View only pending tasks
-- Mark tasks as DONE
-- Delete tasks by ID
-- Save tasks to "tasks.txt" on exit
-- Load tasks from "tasks.txt" at startup
-- Fully ASCII output for compatibility with all terminals
-
-------------------------------------------------------------
-
-## Project Structure
-project-root/ ├─ src/ │   ├─ objects/ │   │    └─ Task.java │   ├─ manager/ │   │    └─ TaskService.java │   └─ app/ │        └─ TodoApp.java ├─ tasks.txt └─ out/
-
+The "To-Do Manager with Deadlines" is a Java-based console application designed to help users efficiently organize and track their daily tasks. The system allows users to create tasks with a title, description, and deadline, while maintaining each task's status as either pending or completed. Built using object-oriented programming principles, the application separates functionality into clearly defined packages for better modularity and maintainability. The TaskService component handles all core logic such as adding, listing, sorting, updating, and deleting tasks, while the Task class represents the task data model. To ensure persistence, all tasks are stored in a simple text file and automatically loaded at startup. The program uses an ASCII-only menu interface to ensure compatibility across all terminal environments. This project demonstrates core Java concepts, including classes, objects, packages, file handling, exception handling, and collection manipulation, making it a practical and beginner-friendly task management solution.
 ------------------------------------------------------------
 
 ## Requirements
@@ -67,5 +43,6 @@ java -cp out app.TodoApp
 
 ## Author
 
-Name: kesamreddy umeshchandrareddy  (24mim10053)
+Name: Nivedit Awasthi  (22BME10012)
 Project: To-Do Manager with Deadlines  
+
